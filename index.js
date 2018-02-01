@@ -5,8 +5,8 @@ const PORT = process.env.PORT || 5000
 express()
    .get('/api/whoami', (req,res) => {
      var whoami  = { ipaddress: req.ip,
-                     language: req.headers.accept-language,
-                     software: req.user-agent}
+                     language: req.headers['accept-language'],
+                     software: req.headers['user-agent']}
 
      
      console.log(JSON.stringify(req.headers))
