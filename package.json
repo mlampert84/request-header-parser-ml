@@ -9,6 +9,7 @@
   "author": "Marcus",
   "license": "ISC",
   "dependencies": {
+    "accept-language-parser": "^1.4.1",
     "express": "^4.16.2"
   }
 }
